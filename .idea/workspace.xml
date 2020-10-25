@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31a67e32-9a17-4989-b2ba-cd5b7e8c4a08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jBWSmelo7ywzNPuQfoUitCk6Xp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+  </component>
+  <component name="RunManager" selected="Python.125">
+    <configuration name="125" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/125.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="study-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="study-algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.125" />
+        <item itemvalue="Python.practice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31a67e32-9a17-4989-b2ba-cd5b7e8c4a08" name="Default Changelist" comment="" />
+      <created>1603277968416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603277968416</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="174" key="#Plugins" timestamp="1603543470083">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state x="560" y="174" key="#Plugins/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603543470083" />
+    <state x="697" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603621652222">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state x="697" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603621652222" />
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom" timestamp="1603635667784">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603635667784" />
+    <state width="1899" height="268" key="GridCell.Tab.0.center" timestamp="1603635667783">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.center/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603635667783" />
+    <state width="1899" height="268" key="GridCell.Tab.0.left" timestamp="1603635667783">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.left/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603635667783" />
+    <state width="1899" height="268" key="GridCell.Tab.0.right" timestamp="1603635667784">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.right/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603635667784" />
+    <state x="32" y="144" key="SettingsEditor" timestamp="1603572481148">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state x="32" y="144" key="SettingsEditor/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603572481148" />
+    <state x="625" y="245" width="672" height="676" key="search.everywhere.popup" timestamp="1603572462840">
+      <screen x="0" y="23" width="1920" height="1006" />
+    </state>
+    <state x="625" y="245" width="672" height="676" key="search.everywhere.popup/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603572462840" />
+  </component>
+</project>

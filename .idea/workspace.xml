@@ -3,9 +3,18 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="31a67e32-9a17-4989-b2ba-cd5b7e8c4a08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/125.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/125.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,22 +143,22 @@
       <screen x="0" y="23" width="1920" height="1006" />
     </state>
     <state x="697" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603621652222" />
-    <state width="1899" height="268" key="GridCell.Tab.0.bottom" timestamp="1603635667784">
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom" timestamp="1603639898223">
       <screen x="0" y="23" width="1920" height="1006" />
     </state>
-    <state width="1899" height="268" key="GridCell.Tab.0.bottom/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603635667784" />
-    <state width="1899" height="268" key="GridCell.Tab.0.center" timestamp="1603635667783">
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603639898223" />
+    <state width="1899" height="268" key="GridCell.Tab.0.center" timestamp="1603639898223">
       <screen x="0" y="23" width="1920" height="1006" />
     </state>
-    <state width="1899" height="268" key="GridCell.Tab.0.center/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603635667783" />
-    <state width="1899" height="268" key="GridCell.Tab.0.left" timestamp="1603635667783">
+    <state width="1899" height="268" key="GridCell.Tab.0.center/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603639898223" />
+    <state width="1899" height="268" key="GridCell.Tab.0.left" timestamp="1603639898222">
       <screen x="0" y="23" width="1920" height="1006" />
     </state>
-    <state width="1899" height="268" key="GridCell.Tab.0.left/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603635667783" />
-    <state width="1899" height="268" key="GridCell.Tab.0.right" timestamp="1603635667784">
+    <state width="1899" height="268" key="GridCell.Tab.0.left/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603639898222" />
+    <state width="1899" height="268" key="GridCell.Tab.0.right" timestamp="1603639898223">
       <screen x="0" y="23" width="1920" height="1006" />
     </state>
-    <state width="1899" height="268" key="GridCell.Tab.0.right/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603635667784" />
+    <state width="1899" height="268" key="GridCell.Tab.0.right/0.23.1920.1006/1920.93.1536.937@0.23.1920.1006" timestamp="1603639898223" />
     <state x="32" y="144" key="SettingsEditor" timestamp="1603572481148">
       <screen x="0" y="23" width="1920" height="1006" />
     </state>

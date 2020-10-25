@@ -1,5 +1,5 @@
 # Tried
-class Solution:
+class Tried:
     def isPalindrome(self, s: str) -> bool:
         # 모든 문자를 소문자로 바꾼다.
         string_ignore_case = s.lower()
@@ -7,7 +7,7 @@ class Solution:
         # 모든 문자 사이에 공백을 만든다.
         string_separated_by_blank = " ".join(string_ignore_case)
 
-        #공백으로 구분하여 문자 리스트를 만든다.
+        # 공백으로 구분하여 문자 리스트를 만든다.
         character_list_contain_blank = string_separated_by_blank.split(" ")
 
         # 알파벳인 문자들만 필터링 해서 새로운 리스트로 만든다.
@@ -18,3 +18,18 @@ class Solution:
             if character_list_only_alnum[i] != character_list_only_alnum[-i - 1]:
                 return False
         return True
+
+
+# Solution 1
+class Solution1:
+    def isPalindrome(self, s: str) -> bool:
+        strs = []
+        for char in s:
+            if char.isalnum():
+                strs.append(char.lower())
+
+        while len(strs) > 1:
+            if strs.pop(0) != strs.pop():
+                return False
+        return True
+

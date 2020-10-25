@@ -1,5 +1,6 @@
 import collections
-from typing import Deque
+from typing import Deque, re
+
 
 # Tried
 class Tried:
@@ -51,4 +52,13 @@ class Solution2:
                 return False
 
         return True
+
+
+# Solution 3
+class Solution3:
+    def isPalindrome(self, s: str) -> bool:
+        s = s.lower()
+        s = re.sub('[^a-z0-9]', '', s)
+
+        return s == s[::-1]
 

@@ -27,4 +27,3 @@ class Solution:
             n %= coin
 
         print(count)
-        

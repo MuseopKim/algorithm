@@ -22,9 +22,9 @@ sum = Tried.tried(self=True)
 print(sum)
 
 
-#Solution
-class Solution:
-    def solution(self):
+#Solution 1
+class Solution1:
+    def solution1(self):
         n, m, k = map(int, input().split())
         data = list(map(int, input().split()))
 
@@ -45,3 +45,23 @@ class Solution:
             result += second
             m -= 1
         return result
+
+
+# Solution 2
+class Solution2:
+    def solution2(self):
+        n, m, k = map(int, input().split())
+        data = list(map(int, input().split()))
+
+        data.sort()
+        first = data[n - 1]
+        second = data[n - 2]
+
+        # 가장 큰 수가 더해지는 횟수
+        # (k + 1) : 반복되는 수열의 길이
+        count = int(m / (k + 1)) * k
+        count += m % (k + 1)
+
+        result = 0
+        result += (count) * first
+        result += (m - count) * second

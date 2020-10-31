@@ -25,4 +25,3 @@ class Solution:
             a = a[s - 1:e]
             a.sort()
             print("#%d %d" %(t + 1, a[k - 1]))
-            

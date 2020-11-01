@@ -13,7 +13,7 @@ class Tried:
 
 # Solution 1 : 오름차순 풀이
 class Solution1:
-    def solution(self):
+    def solution1(self):
         nums = [6, 2, 6, 5, 1, 2]
         sum = 0
         pair = []
@@ -30,7 +30,7 @@ class Solution1:
 
 # Solution 2 : 짝수 번째 값 계산
 class Solution2:
-    def solution(selfself):
+    def solution2(self):
         nums = [6, 2, 6, 5, 1, 2]
         sum = 0
         nums.sort()
@@ -40,3 +40,10 @@ class Solution2:
                 sum += n
 
         return sum
+
+
+# Solution 3 : 파이썬다운 방식
+class Solution3:
+    def solution3(self):
+        nums = [6, 2, 6, 5, 1, 2]
+        return sum(sorted(nums)[::2])

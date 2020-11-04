@@ -90,9 +90,3 @@ class Solution2:
                 print("#%d YES" % (i + 1))
             else:
                 print("#%d NO" % (i + 1))
-
-str = "HELLO"
-str_list = list(str)
-str2 = str[::-1]
-str2_list = str_list[::-1]
-print(str2_list)

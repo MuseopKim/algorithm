@@ -10,16 +10,22 @@ public class ReverseOnlyAlphabets {
         int right = characters.length - 1;
 
         while (left < right) {
-            char upperCasedCharacter = Character.toUpperCase(characters[left]);
+            if (!Character.isAlphabetic(characters[left])) {
+                left += 1;
+            }
 
-            if (upperCasedCharacter >= 65 && upperCasedCharacter <= 90) {
+            if (!Character.isAlphabetic(characters[right])) {
+                right -= 1;
+            }
+
+            if (Character.isAlphabetic(characters[left]) && Character.isAlphabetic(characters[right])) {
                 char tempCharacter = characters[left];
                 characters[left] = characters[right];
                 characters[right] = tempCharacter;
-            }
 
-            left += 1;
-            right -= 1;
+                left += 1;
+                right -= 1;
+            }
         }
 
         return String.valueOf(characters);

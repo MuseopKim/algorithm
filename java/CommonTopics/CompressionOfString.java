@@ -1,8 +1,16 @@
 package CommonTopics;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class CompressionOfString {
+
+    static String solution(String target) {
+        StringBuilder compressedString = new StringBuilder();
+
+        char[] characters = target.toCharArray();
+        return Arrays.toString(characters);
+    }
 
     static String compress(String target) {
         StringBuilder compressedString = new StringBuilder();

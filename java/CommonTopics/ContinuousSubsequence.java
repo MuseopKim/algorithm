@@ -4,6 +4,31 @@ import java.util.Scanner;
 
 public class ContinuousSubsequence {
 
+    static int solution(int length, int[] numbers, int target) {
+        int left = 0;
+        int count = 0;
+        int sum = 0;
+
+        for (int right = 0; right < length; right++) {
+            sum += numbers[right];
+
+            if (sum == target) {
+                count += 1;
+            }
+
+            while (sum >= target) {
+                sum -= numbers[left];
+                left += 1;
+
+                if (sum == target) {
+                    count += 1;
+                }
+            }
+        }
+
+        return count;
+    }
+
     static int findCountOfTarget(int length, int[] numbers, int target) {
         int count = 0;
 
@@ -39,6 +64,6 @@ public class ContinuousSubsequence {
             numbers[i] = stdIn.nextInt();
         }
 
-        System.out.println(findCountOfTarget(length, numbers, target));
+        System.out.println(solution(length, numbers, target));
     }
 }

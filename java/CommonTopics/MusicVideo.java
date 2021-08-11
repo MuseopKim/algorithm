@@ -57,6 +57,50 @@ public class MusicVideo {
         return result;
     }
 
+    static int count(int[] songs, int capacity) {
+       int count = 1;
+       int sum = 0;
+
+       for (int playTime : songs) {
+           if (sum + playTime > capacity) {
+               count += 1;
+               sum = playTime;
+           } else {
+               sum += playTime;
+           }
+       }
+
+       return count;
+    }
+
+    static int solution(int length, int[] songs, int dvdCount) {
+        int left = 0;
+        int right = 0;
+
+        for (int i = 0; i < length; i++) {
+            if (left < songs[i]) {
+                left = songs[i];
+            }
+
+            right += songs[i];
+        }
+
+        int result = left;
+
+        while (left <= right) {
+            int middle = (left + right) / 2;
+
+            if (count(songs, middle) <= dvdCount) {
+                result = middle;
+                right = middle - 1;
+            } else {
+                left = middle + 1;
+            }
+        }
+
+        return result;
+    }
+
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
 
@@ -69,6 +113,6 @@ public class MusicVideo {
             songs[i] = stdIn.nextInt();
         }
 
-        System.out.println(findMinimumDvdTime(length, songs, dvdCount));
+        System.out.println(solution(length, songs, dvdCount));
     }
 }

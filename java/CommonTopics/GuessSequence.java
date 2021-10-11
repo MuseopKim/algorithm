@@ -57,7 +57,6 @@ public class GuessSequence {
 
         n = stdIn.nextInt();
         combinations = new int[n][n];
-        check = new boolean[n];
 
         target = stdIn.nextInt();
         counts = new int[n];
